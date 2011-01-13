@@ -8,7 +8,7 @@ This plugin allows you to do an iphone-like menu. Useful for mobile devices menu
 How to use
 ----------
 
-This plugin is very easy to use. Given ah HTML well-formatted <ul> menu, in the domready statement just add:
+This plugin is very easy to use. Given ah HTML well-formatted ul menu, in the domready statement just add:
     
     #JS
     /* moophoneMenu instance */
