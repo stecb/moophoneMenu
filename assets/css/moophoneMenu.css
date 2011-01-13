@@ -5,7 +5,8 @@
     overflow:hidden;
     overflow-y:auto;
     cursor:default;
-    left:0;
+    left:50%;
+	margin-left:-160px;
 }
 .moophoneMenu{
     list-style:none;
