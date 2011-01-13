@@ -1,0 +1,120 @@
+.moophoneMenuWrapper{
+    position:absolute;
+    width:320px;
+    height:100%;
+    overflow:hidden;
+    overflow-y:auto;
+    cursor:default;
+    left:0;
+}
+.moophoneMenu{
+    list-style:none;
+    position:absolute;
+    margin:0;
+    padding:0;
+    left:0;
+    top:0px;
+    width:320px;
+    display:none;
+}
+
+    .moophoneMenu .moophoneMenuParent{
+        background:#FFFFFF url(../images/iphone-menu-arrow.png) no-repeat right;
+        cursor:pointer
+    }
+
+    .moophoneMenu a, .moophoneMenu a:visited{
+        text-decoration:none;
+        color:#5B80AB;
+        outline:none;
+    }
+
+    .moophoneMenu li{
+        background:#FFFFFF;
+        padding:10px;
+        border:1px solid #AAABAD;
+        border-bottom:none;
+        font-weight:bold;
+    }
+
+    .moophoneMenu li:first-child{
+        border:1px solid #AAABAD;
+        -webkit-border-top-left-radius: 8px;
+        -webkit-border-top-right-radius: 8px;
+        -moz-border-radius-topleft: 8px;
+        -moz-border-radius-topright: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom:none;
+    }
+    .moophoneMenu li:last-child{
+        border:1px solid #AAABAD;
+        -webkit-border-bottom-right-radius: 8px;
+        -webkit-border-bottom-left-radius: 8px;
+        -moz-border-radius-bottomright: 8px;
+        -moz-border-radius-bottomleft: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .moophoneMenu ul{
+        list-style:none;
+        width:320px;
+        position:absolute;
+        margin:0;
+        padding:0;
+        left:320px;
+        top:0px;
+        display:none;
+    }
+.moophoneMenuNavBar{
+    width:100%;
+    height:45px;
+    background:url(../images/iphone-menu-header.png) repeat-x top;
+    display:none;
+}
+    .moophoneMenuNavBar p.moophoneMenuNavBar-title{
+        padding:14px 0px 0px 0px;
+        margin:0;
+        text-align:center;
+        color:#FFFFFF;
+        text-shadow: 0px -1px 0px #000;
+        font-weight:bold;
+        float:left;
+        width:100%;
+        font-size:14px;
+    }
+    .moophoneMenuNavBar .moophoneMenuBack{
+            margin:-22px 0px 0px 7px;
+            float:left;
+            height:30px;
+            cursor:pointer;
+    }
+        .moophoneMenuNavBar .moophoneMenuBack div{
+                height:30px;
+                float:left;
+                background:url(../images/iphone-menu-back-sprite.png) no-repeat scroll;
+        }
+        .moophoneMenuNavBar .moophoneMenuBack .moophoneMenuBack-arrow{
+                width:15px;
+                background-position:0px -60px;
+        }
+        .moophoneMenuNavBar .moophoneMenuBack .moophoneMenuBack-content{
+                background-repeat: repeat-x;
+                background-position:0px -30px;
+        }
+            .moophoneMenuNavBar .moophoneMenuBack .moophoneMenuBack-content span{
+                display:block;
+                color:#FFFFFF;
+                padding:7px 0px 0px 5px;
+                text-shadow: 0px -1px 0px #000;
+                font-weight:bold;
+            }
+        .moophoneMenuNavBar .moophoneMenuBack .moophoneMenuBack-tail{
+                width:15px;
+                background-position:0px 0px;
+        }
+        
+        .moophoneMenuNavBar .moophoneMenuBack-active div{
+            background-image:url(../images/iphone-menu-back-sprite-active.png) !important;
+        }
